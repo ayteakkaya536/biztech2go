@@ -1,0 +1,6 @@
+21:54:16.656 [main] INFO  resources.DriverInitilization - Successfully validated icon
+21:54:19.754 [main] INFO  resources.DriverInitilization - Successfully validated Main page first dynamic post
+21:54:19.805 [main] INFO  resources.DriverInitilization - Successfully validated Main page title
+21:56:08.171 [main] INFO  resources.DriverInitilization - Driver is initialized
+21:56:20.615 [main] INFO  resources.DriverInitilization - Navigated to Home page
+21:56:23.426 [main] INFO  resources.DriverInitilization - Successfully validated bottom of the page

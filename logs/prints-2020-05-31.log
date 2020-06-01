@@ -1,0 +1,6 @@
+21:48:42.908 [main] INFO  resources.DriverInitilization - Successfully validated ITStaffing hovermenu
+21:48:42.994 [main] INFO  resources.DriverInitilization - Successfully validated icon
+21:50:43.090 [main] INFO  resources.DriverInitilization - Driver is initialized
+21:50:54.232 [main] INFO  resources.DriverInitilization - Navigated to Home page
+21:50:56.981 [main] INFO  resources.DriverInitilization - Successfully validated bottom of the page
+21:50:59.345 [main] INFO  resources.DriverInitilization - Successfully validated ITStaffing hovermenu
