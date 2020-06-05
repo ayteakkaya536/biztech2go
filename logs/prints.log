@@ -1,3 +1,4 @@
-21:50:59.406 [main] INFO  resources.DriverInitilization - Successfully validated icon
-21:51:09.752 [main] INFO  resources.DriverInitilization - Successfully validated Main page scroll How we Operate
-21:51:13.756 [main] INFO  resources.DriverInitilization - Successfully validated Main page title
+10:50:40.381 [main] INFO  resources.DriverInitilization - ContactUS page empty email error is verified
+10:50:40.535 [main] INFO  resources.DriverInitilization - ContactUS page message blank typing is verified
+10:50:40.683 [main] INFO  resources.DriverInitilization - ContactUS page name blank typing is verified
+10:50:40.832 [main] INFO  resources.DriverInitilization - ContactUS page subject blank typing is verified

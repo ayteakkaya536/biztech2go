@@ -5,15 +5,15 @@
     <listener class-name="resources.listeners"/>
     <listener class-name="resources.ExtentReporterNG"/>
   </listeners>
-  <test thread-count="5" name="Validating Home page visual(failed)">
+  <test thread-count="5" name="Validating Contact Us page in new Tab(failed)">
     <classes>
-      <class name="com.biztech2go.TestHomePage">
+      <class name="com.biztech2go.TestContactUsPage">
         <methods>
-          <include name="teardown"/>
           <include name="initialize"/>
-          <include name="verifyMainPageDynamicProposal"/>
+          <include name="validateEmptyEmailError"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- com.biztech2go.TestHomePage -->
+      </class> <!-- com.biztech2go.TestContactUsPage -->
     </classes>
-  </test> <!-- Validating Home page visual(failed) -->
+  </test> <!-- Validating Contact Us page in new Tab(failed) -->
 </suite> <!-- Failed suite [Suite] -->

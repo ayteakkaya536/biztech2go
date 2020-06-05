@@ -1,103 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="10" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="41959" started-at="2020-05-31T21:50:38 PDT" finished-at="2020-05-31T21:51:20 PDT">
+  <suite name="Default suite" duration-ms="22582" started-at="2020-06-05T10:50:18 PDT" finished-at="2020-06-05T10:50:40 PDT">
     <groups>
     </groups>
-    <test name="Validating Home page visual" duration-ms="41959" started-at="2020-05-31T21:50:38 PDT" finished-at="2020-05-31T21:51:20 PDT">
-      <class name="com.biztech2go.TestHomePage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.biztech2go.TestHomePage@45c7e403]" name="initialize" is-config="true" duration-ms="17700" started-at="2020-05-31T21:50:38 PDT" finished-at="2020-05-31T21:50:56 PDT">
+    <test name="Default test" duration-ms="22582" started-at="2020-06-05T10:50:18 PDT" finished-at="2020-06-05T10:50:40 PDT">
+      <class name="com.biztech2go.TestContactUsPage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.biztech2go.TestContactUsPage@752325ad]" name="initialize" is-config="true" duration-ms="17292" started-at="2020-06-05T10:50:18 PDT" finished-at="2020-06-05T10:50:35 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="bottomCopyRigth()[pri:0, instance:com.biztech2go.TestHomePage@45c7e403]" name="bottomCopyRigth" duration-ms="477" started-at="2020-05-31T21:50:56 PDT" finished-at="2020-05-31T21:50:56 PDT">
+        <test-method status="PASS" signature="validateEmailBlankTyping()[pri:0, instance:com.biztech2go.TestContactUsPage@752325ad]" name="validateEmailBlankTyping" duration-ms="2280" started-at="2020-06-05T10:50:35 PDT" finished-at="2020-06-05T10:50:37 PDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bottomCopyRigth -->
-        <test-method status="PASS" signature="hoverITStaffMenu()[pri:0, instance:com.biztech2go.TestHomePage@45c7e403]" name="hoverITStaffMenu" duration-ms="2359" started-at="2020-05-31T21:50:56 PDT" finished-at="2020-05-31T21:50:59 PDT">
+        </test-method> <!-- validateEmailBlankTyping -->
+        <test-method status="PASS" signature="validateEmptyNameEmailError()[pri:0, instance:com.biztech2go.TestContactUsPage@752325ad]" name="validateEmptyNameEmailError" duration-ms="2435" started-at="2020-06-05T10:50:37 PDT" finished-at="2020-06-05T10:50:40 PDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hoverITStaffMenu -->
-        <test-method status="PASS" signature="validateIcon()[pri:0, instance:com.biztech2go.TestHomePage@45c7e403]" name="validateIcon" duration-ms="65" started-at="2020-05-31T21:50:59 PDT" finished-at="2020-05-31T21:50:59 PDT">
+        </test-method> <!-- validateEmptyNameEmailError -->
+        <test-method status="PASS" signature="validateMessageBlankTyping()[pri:0, instance:com.biztech2go.TestContactUsPage@752325ad]" name="validateMessageBlankTyping" duration-ms="184" started-at="2020-06-05T10:50:40 PDT" finished-at="2020-06-05T10:50:40 PDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateIcon -->
-        <test-method status="PASS" signature="verifyAboutUsPage()[pri:0, instance:com.biztech2go.TestHomePage@45c7e403]" name="verifyAboutUsPage" duration-ms="3649" started-at="2020-05-31T21:50:59 PDT" finished-at="2020-05-31T21:51:03 PDT">
+        </test-method> <!-- validateMessageBlankTyping -->
+        <test-method status="PASS" signature="validateNameBlankTyping()[pri:0, instance:com.biztech2go.TestContactUsPage@752325ad]" name="validateNameBlankTyping" duration-ms="148" started-at="2020-06-05T10:50:40 PDT" finished-at="2020-06-05T10:50:40 PDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAboutUsPage -->
-        <test-method status="PASS" signature="verifyContactUsPage()[pri:0, instance:com.biztech2go.TestHomePage@45c7e403]" name="verifyContactUsPage" duration-ms="2987" started-at="2020-05-31T21:51:03 PDT" finished-at="2020-05-31T21:51:06 PDT">
+        </test-method> <!-- validateNameBlankTyping -->
+        <test-method status="PASS" signature="validateSubjectBlankTyping()[pri:0, instance:com.biztech2go.TestContactUsPage@752325ad]" name="validateSubjectBlankTyping" duration-ms="157" started-at="2020-06-05T10:50:40 PDT" finished-at="2020-06-05T10:50:40 PDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContactUsPage -->
-        <test-method status="PASS" signature="verifyItServicesPage()[pri:0, instance:com.biztech2go.TestHomePage@45c7e403]" name="verifyItServicesPage" duration-ms="3469" started-at="2020-05-31T21:51:06 PDT" finished-at="2020-05-31T21:51:09 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyItServicesPage -->
-        <test-method status="PASS" signature="verifyMainHowWOperate()[pri:0, instance:com.biztech2go.TestHomePage@45c7e403]" name="verifyMainHowWOperate" duration-ms="220" started-at="2020-05-31T21:51:09 PDT" finished-at="2020-05-31T21:51:09 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMainHowWOperate -->
-        <test-method status="FAIL" signature="verifyMainPageDynamicProposal()[pri:0, instance:com.biztech2go.TestHomePage@45c7e403]" name="verifyMainPageDynamicProposal" duration-ms="2326" started-at="2020-05-31T21:51:09 PDT" finished-at="2020-05-31T21:51:12 PDT">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:968)
-at org.testng.Assert.assertTrue(Assert.java:43)
-at org.testng.Assert.assertTrue(Assert.java:53)
-at com.biztech2go.TestHomePage.verifyMainPageDynamicProposal(TestHomePage.java:92)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMainPageDynamicProposal -->
-        <test-method status="PASS" signature="verifyMainPageTitle()[pri:0, instance:com.biztech2go.TestHomePage@45c7e403]" name="verifyMainPageTitle" duration-ms="6" started-at="2020-05-31T21:51:13 PDT" finished-at="2020-05-31T21:51:13 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMainPageTitle -->
-        <test-method status="PASS" signature="verifyOurServicesPage()[pri:0, instance:com.biztech2go.TestHomePage@45c7e403]" name="verifyOurServicesPage" duration-ms="2712" started-at="2020-05-31T21:51:13 PDT" finished-at="2020-05-31T21:51:16 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyOurServicesPage -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.biztech2go.TestHomePage@45c7e403]" name="teardown" is-config="true" duration-ms="4213" started-at="2020-05-31T21:51:16 PDT" finished-at="2020-05-31T21:51:20 PDT">
+        </test-method> <!-- validateSubjectBlankTyping -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.biztech2go.TestContactUsPage@752325ad]" name="teardown" is-config="true" duration-ms="0" started-at="2020-06-05T10:50:40 PDT" finished-at="2020-06-05T10:50:40 PDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.biztech2go.TestHomePage -->
-    </test> <!-- Validating Home page visual -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.biztech2go.TestContactUsPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

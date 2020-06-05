@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.biztech2go.TestHomePage">
+      <class name="com.biztech2go.TestContactUsPage">
         <methods>
-          <include name="teardown"/>
           <include name="initialize"/>
-          <include name="verifyMainPageDynamicProposal"/>
+          <include name="validateEmptyNameEmailError"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- com.biztech2go.TestHomePage -->
+      </class> <!-- com.biztech2go.TestContactUsPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

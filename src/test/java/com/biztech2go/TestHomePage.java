@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import pageObjects.xxSecondPage;
+import pageObjects.ContactUsPage;
 import pageObjects.MainPage;
 import resources.DriverInitializationLocal;
 import resources.DriverInitilization;
