@@ -1,0 +1,6 @@
+19:09:05.760 [main] INFO  resources.DriverInitilization - Successfully validated ITStaffing hovermenu
+19:09:05.847 [main] INFO  resources.DriverInitilization - Successfully validated icon
+19:09:16.297 [main] INFO  resources.DriverInitilization - Successfully validated Main page scroll How we Operate
+19:09:19.124 [main] INFO  resources.DriverInitilization - Successfully validated Main page title
+21:29:31.168 [main] INFO  resources.DriverInitilization - ContactUS page name error is verified
+21:33:47.238 [main] INFO  resources.DriverInitilization - ContactUS page name error is verified
