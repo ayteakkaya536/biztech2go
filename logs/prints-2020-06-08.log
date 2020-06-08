@@ -1,0 +1,5 @@
+10:36:55.505 [main] INFO  resources.DriverInitilization - Successfully verified ImageVerizonPresence
+10:36:55.602 [main] INFO  resources.DriverInitilization - Successfully verified RequestQuotePresence
+10:36:55.620 [main] INFO  resources.DriverInitilization - Successfully validated TelecomServices title
+10:40:46.752 [main] INFO  resources.DriverInitilization - IT Training page AutomationTestingSelection is verified
+10:40:46.940 [main] INFO  resources.DriverInitilization - IT Training page DataScienceSelection is verified

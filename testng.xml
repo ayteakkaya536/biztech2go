@@ -5,17 +5,31 @@
  	<listener class-name="resources.listeners"/>
  	<listener class-name="resources.ExtentReporterNG"/>  
  </listeners>
-	<!-- NOTE= change all the package name with find function 
+	<!-- NOTE= change all the package name with find function  -->
   <test name="Validating Home page visual">
-    <classes>
-      <class name="com.biztech2go.TestHomePage"/>
-    </classes>
-   </test>  -->
+	    <classes>
+	      	<class name="com.biztech2go.TestHomePage"/>
+	    </classes>
+   </test>  
    <test name="Validating Contact Us page in new Tab">
-   <classes>
-   	<class name="com.biztech2go.TestContactUsPage"/>
-   </classes>
+	   <classes>
+	   		<class name="com.biztech2go.TestContactUsPage"/>
+	   </classes>
+   </test> 
+   <test name="Validating About Us page in new Tab">
+	   <classes>
+	   		<class name="com.biztech2go.TestAboutUsPage"/>
+	   </classes>
    </test>
-
+      <test name="Validating IT Training Page in new Window">
+	   <classes>
+	   		<class name="com.biztech2go.TestITTrainingPage"/>
+	   </classes>
+   </test>
+   <test name="Validating Telecom Servies Page in same Window">
+	   <classes>
+	   		<class name="com.biztech2go.TestTelecomServicesPage"/>
+	   </classes>
+   </test>
 
 </suite> <!-- Suite -->

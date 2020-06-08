@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+ 	<listener class-name="resources.listeners"/>
+ 	<listener class-name="resources.ExtentReporterNG"/>  
+ </listeners>
+
+	<!-- NOTE= change all the package name with find function -->
+  <test name="Smmoke Testing">
+   		<groups>
+   			<run>
+   			<!-- XXXXX @Test(groups= {"Smoke"}) will get activated -->
+   			<!-- XXXXX @BeforeTest(groups= {"Smoke"}) will get activated -->
+   			<!-- XXXXX @AfterTest(groups= {"Smoke"}) will get activated -->
+   				<include name="Smoke"/>
+   			</run>
+   		</groups>
+   
+	   <classes>
+		   	<class name="com.biztech2go.TestHomePage"/>
+		    <class name="com.biztech2go.TestContactUsPage"/>
+	   </classes>
+   </test>
+
+
+</suite> <!-- Suite -->

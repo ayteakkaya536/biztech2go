@@ -1,4 +1,4 @@
-10:50:40.381 [main] INFO  resources.DriverInitilization - ContactUS page empty email error is verified
-10:50:40.535 [main] INFO  resources.DriverInitilization - ContactUS page message blank typing is verified
-10:50:40.683 [main] INFO  resources.DriverInitilization - ContactUS page name blank typing is verified
-10:50:40.832 [main] INFO  resources.DriverInitilization - ContactUS page subject blank typing is verified
+10:40:47.052 [main] INFO  resources.DriverInitilization - IT Training page imageITTraining is displayed
+10:40:47.349 [main] INFO  resources.DriverInitilization - IT Training page ManuelTestingSelection is verified
+10:40:47.665 [main] INFO  resources.DriverInitilization - IT Training page SAPSelection is verified
+10:40:47.682 [main] INFO  resources.DriverInitilization - Successfully validated IT Training page title

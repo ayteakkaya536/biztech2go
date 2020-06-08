@@ -57,6 +57,13 @@ public class ContactUsPage {
 		String childID=windowIterator.next();
 		driver.switchTo().window(childID);
 	}
+	public void switchToMainPage() {
+		Set<String> windowIDs=driver.getWindowHandles();
+		Iterator<String> windowIterator=windowIDs.iterator(); //initilize iterator at beginning, thus next is needed for the first one
+		String parentID=windowIterator.next();
+		String childID=windowIterator.next();
+		driver.switchTo().window(parentID);
+	}
 	
 	public void  clickSend()
 	{

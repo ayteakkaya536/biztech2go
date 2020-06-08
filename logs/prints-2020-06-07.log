@@ -1,0 +1,5 @@
+21:28:39.654 [main] INFO  resources.DriverInitilization - Successfully validated IT Training page title
+21:29:52.035 [main] INFO  resources.DriverInitilization - IT Training page AutomationTestingSelection is verified
+21:29:52.183 [main] INFO  resources.DriverInitilization - IT Training page DataScienceSelection is verified
+21:29:52.267 [main] INFO  resources.DriverInitilization - IT Training page imageITTraining is displayed
+21:29:52.391 [main] INFO  resources.DriverInitilization - IT Training page ManuelTestingSelection is verified

@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="resources.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Validating IT Training Page in new Window(failed)">
     <classes>
-      <class name="com.biztech2go.TestContactUsPage">
+      <class name="com.biztech2go.TestITTrainingPage">
         <methods>
-          <include name="initialize"/>
-          <include name="validateEmptyNameEmailError"/>
           <include name="teardown"/>
+          <include name="validateAutomationTestingSelection"/>
+          <include name="initialize"/>
         </methods>
-      </class> <!-- com.biztech2go.TestContactUsPage -->
+      </class> <!-- com.biztech2go.TestITTrainingPage -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Validating IT Training Page in new Window(failed) -->
+</suite> <!-- Failed suite [Suite] -->

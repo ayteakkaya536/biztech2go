@@ -97,7 +97,7 @@ public class TestContactUsPage extends DriverInitilization{
 	public void teardown()
 	{
 		
-		driver.close();
+		driver.quit();
 		driver=null;
 		
 	}

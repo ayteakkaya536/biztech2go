@@ -47,11 +47,11 @@ public class MainPage {
 	}
 	public WebElement getDynamicFirstProposal() throws InterruptedException 
 	{
-		Actions action=new Actions(driver);
-		action.sendKeys(Keys.HOME).perform();
-		Thread.sleep(1000);
-		driver.findElement(dynamicMenuBack).click();
-		Thread.sleep(1000);
+//		Actions action=new Actions(driver);
+//		action.sendKeys(Keys.HOME).perform();
+//		Thread.sleep(1000);
+//		driver.findElement(dynamicMenuBack).click();
+//		Thread.sleep(1000);
 		return driver.findElement(dymamicMenuFirstMotto);
 	}
 

@@ -84,7 +84,7 @@ public class TestHomePage extends DriverInitilization{
 		log.info("Successfully validated Main page title");
 		System.out.println("Main page title validation completed");
 	}
-	@Test
+	@Test(dependsOnMethods= {"validateIcon"})
 	public void verifyMainPageDynamicProposal()  throws IOException, InterruptedException
 	{
 		mainPage=new MainPage(driver);
