@@ -1,45 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="15" total="15" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23032" started-at="2020-06-08T10:40:25 PDT" finished-at="2020-06-08T10:40:48 PDT">
+  <suite name="Suite" duration-ms="15" started-at="2020-06-23T13:39:23 PDT" finished-at="2020-06-23T13:39:23 PDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23032" started-at="2020-06-08T10:40:25 PDT" finished-at="2020-06-08T10:40:48 PDT">
-      <class name="com.biztech2go.TestITTrainingPage">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:com.biztech2go.TestITTrainingPage@752325ad]" name="initialize" is-config="true" duration-ms="18895" started-at="2020-06-08T10:40:25 PDT" finished-at="2020-06-08T10:40:44 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="validateAutomationTestingSelection()[pri:0, instance:com.biztech2go.TestITTrainingPage@752325ad]" name="validateAutomationTestingSelection" duration-ms="2235" started-at="2020-06-08T10:40:44 PDT" finished-at="2020-06-08T10:40:46 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateAutomationTestingSelection -->
-        <test-method status="PASS" signature="validateDataScienceSelection()[pri:0, instance:com.biztech2go.TestITTrainingPage@752325ad]" name="validateDataScienceSelection" duration-ms="174" started-at="2020-06-08T10:40:46 PDT" finished-at="2020-06-08T10:40:46 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateDataScienceSelection -->
-        <test-method status="PASS" signature="validateImageITTraining()[pri:0, instance:com.biztech2go.TestITTrainingPage@752325ad]" name="validateImageITTraining" duration-ms="119" started-at="2020-06-08T10:40:46 PDT" finished-at="2020-06-08T10:40:47 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateImageITTraining -->
-        <test-method status="PASS" signature="validateManuelTestingSelection()[pri:0, instance:com.biztech2go.TestITTrainingPage@752325ad]" name="validateManuelTestingSelection" duration-ms="285" started-at="2020-06-08T10:40:47 PDT" finished-at="2020-06-08T10:40:47 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateManuelTestingSelection -->
-        <test-method status="PASS" signature="validateSAPSelection()[pri:0, instance:com.biztech2go.TestITTrainingPage@752325ad]" name="validateSAPSelection" duration-ms="314" started-at="2020-06-08T10:40:47 PDT" finished-at="2020-06-08T10:40:47 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateSAPSelection -->
-        <test-method status="PASS" signature="verifyITTrainingPageTitle()[pri:0, instance:com.biztech2go.TestITTrainingPage@752325ad]" name="verifyITTrainingPageTitle" duration-ms="15" started-at="2020-06-08T10:40:47 PDT" finished-at="2020-06-08T10:40:47 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyITTrainingPageTitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.biztech2go.TestITTrainingPage@752325ad]" name="teardown" is-config="true" duration-ms="926" started-at="2020-06-08T10:40:47 PDT" finished-at="2020-06-08T10:40:48 PDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.biztech2go.TestITTrainingPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    <test name="Smmoke Testing" duration-ms="15" started-at="2020-06-23T13:39:23 PDT" finished-at="2020-06-23T13:39:23 PDT">
+    </test> <!-- Smmoke Testing -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -3,12 +3,29 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.biztech2go.TestTelecomServicesPage">
+      <class name="com.biztech2go.TestITTrainingPage">
         <methods>
+          <include name="teardown"/>
           <include name="initialize"/>
-          <include name="verifyImageVerizonPresence"/>
+          <include name="verifyITTrainingPageTitle"/>
         </methods>
-      </class> <!-- com.biztech2go.TestTelecomServicesPage -->
+      </class> <!-- com.biztech2go.TestITTrainingPage -->
+      <class name="com.biztech2go.TestHomePage">
+        <methods>
+          <include name="bottomCopyRigth"/>
+          <include name="verifyMainPageTitle"/>
+          <include name="validateIcon"/>
+          <include name="verifyAboutUsPage"/>
+          <include name="verifyContactUsPage"/>
+          <include name="teardown"/>
+          <include name="hoverITStaffMenu"/>
+          <include name="initialize"/>
+          <include name="verifyMainPageDynamicProposal"/>
+          <include name="verifyMainHowWOperate"/>
+          <include name="verifyOurServicesPage"/>
+          <include name="verifyItServicesPage"/>
+        </methods>
+      </class> <!-- com.biztech2go.TestHomePage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,4 +1,1 @@
-10:40:47.052 [main] INFO  resources.DriverInitilization - IT Training page imageITTraining is displayed
-10:40:47.349 [main] INFO  resources.DriverInitilization - IT Training page ManuelTestingSelection is verified
-10:40:47.665 [main] INFO  resources.DriverInitilization - IT Training page SAPSelection is verified
-10:40:47.682 [main] INFO  resources.DriverInitilization - Successfully validated IT Training page title
+13:35:24.233 [main] INFO  resources.DriverInitilization - ContactUS page subject blank typing is verified

@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <listeners>
-    <listener class-name="resources.listeners"/>
-    <listener class-name="resources.ExtentReporterNG"/>
-  </listeners>
-  <test thread-count="5" name="Validating IT Training Page in new Window(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="com.biztech2go.TestITTrainingPage">
         <methods>
           <include name="teardown"/>
-          <include name="validateAutomationTestingSelection"/>
           <include name="initialize"/>
+          <include name="verifyITTrainingPageTitle"/>
         </methods>
       </class> <!-- com.biztech2go.TestITTrainingPage -->
+      <class name="com.biztech2go.TestHomePage">
+        <methods>
+          <include name="bottomCopyRigth"/>
+          <include name="verifyMainPageTitle"/>
+          <include name="validateIcon"/>
+          <include name="verifyAboutUsPage"/>
+          <include name="verifyContactUsPage"/>
+          <include name="teardown"/>
+          <include name="hoverITStaffMenu"/>
+          <include name="initialize"/>
+          <include name="verifyMainPageDynamicProposal"/>
+          <include name="verifyMainHowWOperate"/>
+          <include name="verifyOurServicesPage"/>
+          <include name="verifyItServicesPage"/>
+        </methods>
+      </class> <!-- com.biztech2go.TestHomePage -->
     </classes>
-  </test> <!-- Validating IT Training Page in new Window(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
